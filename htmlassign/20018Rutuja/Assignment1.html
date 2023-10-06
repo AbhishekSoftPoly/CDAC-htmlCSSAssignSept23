@@ -1,0 +1,74 @@
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="left">
+      
+        <table>
+          <tr>
+            <td style="width: 10cm;">
+              <center>
+                <h1>LOGO</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit commodi, <br> recusandae a ea quos debitis sapiente <br> eveniet non ab ipsa hic nisi tenetur. Debitis fuga rem aperiam a autem alias.</p>
+              </center>
+            </td>
+            <td style="width: 10cm;" >
+              <center>
+                <h4>Create an Account</h4>
+                <img src="logoi.jpeg" alt="Logo" class="logo">
+              </center>
+              <form action="create.php" method="post">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                <label for="userid">User ID</label>
+                <input type="text" id="userid" name="userid" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+                <label for="retype">Retype Password</label>
+                <input type="password" id="retype" name="retype" required>
+              </form>
+                <input type="checkbox" id="agree" name="agree" required>
+                <label for="agree">I agree to the terms and conditions</label><br>
+                <button type="submit">Submit</button>
+                <input type="checkbox" id="agree" name="agree" required>
+                <label for="agree">Already have an Account, sign in here.</label>
+              
+            </td>
+          </tr>
+        </table>
+        
+      
+      
+    </div>
+    <div class="right">
+      <center>
+      <h1 style="color: azure;">Logo</h1>
+      <h4>Create an Account</h4>
+      <img src="logoi.jpeg" alt="Logo" class="logo">
+    </center>
+      
+      <form action="login.php" method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+        <label for="surname">Surname</label>
+        <input type="text" id="surname" name="surname" required>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+      </form>
+        <input type="checkbox" id="agree" name="agree" required>
+        <label for="agree">I agree to the terms and conditions</label><br>
+        <button type=submit>Submit</button><br>
+     
+        <input type="checkbox" id="agree" name="agree" required>
+        <label for="agree">Already have an Account, sign in here.</label>
+        </div>
+  </div>
+</body>
+</html>
+

@@ -1,0 +1,184 @@
+*{
+    margin:0
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'open sans','sans-serif';
+}
+body{
+    background-image: url(bg.jpg);
+}
+.container{
+    display: flex;
+}
+.container .container1{
+    display: flex;
+    margin-left: 80px;
+    margin-top: 15px;
+    color: black;
+    width: 780px;
+    height: 720px;
+    background-size: cover;
+    background-image: url('bg2.jpg');
+}
+.container .container1 .part1{
+    width: 490px;
+    text-align: left;
+}
+.container .container1 .part2{
+    width: 490px;
+    text-align: center;
+}
+.container .container2{
+    margin-right: 80px;
+   margin-left: 30px;
+    margin-top: 15px;
+    background-image: url('bg2.jpg');
+    background-size: contain;
+    color: black;
+    width: 550px;
+    height: 750px;
+}
+.container .container2 #logo{
+    justify-content: center;
+}
+#logo{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-right: 40px;
+    justify-content: center;
+    text-align: center;
+}
+#logo1{
+    margin-top: 15px;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    justify-content: center;
+    text-align: center;
+}
+#heading1{
+    color: aliceblue;
+    margin-top: 0;
+    font-size: 25px;
+}
+
+#heading2{
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: 0;
+    margin-right: 20px;
+}
+.user-details .inputbox input{
+    height: 35px;
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 80%;
+    padding: 10px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+.button input{
+    margin-top:5px;
+    margin-left: 370px;
+    justify-content: right;
+    height: 35px;
+    width: 120px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+.checkbox{
+    margin-top: 10px;
+}
+
+.checkbox label{
+    color: aliceblue;
+    font-size: 10px;
+    margin-left: 50px;
+}
+
+.checkbox input{
+    margin-left: 1px;
+}
+form input[type=checkbox] {
+    width: 15px;
+    height: 15px;
+   }
+   
+   .ppp{
+      text-align: center;
+      
+   }
+   #log{
+    margin-top: 190px;
+    margin-right:150px;
+    width: 100px;
+    margin-left: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.checkbox1 label{
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 50px;
+}
+.user-details .rightinput input{
+    height: 35px;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 80%;
+    padding: 10px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+.checkboxnew label{
+    color: aliceblue;
+    font-size: 10px;
+    font-weight: 800;
+}
+.checkboxnew{
+    margin-top: 10px;
+    margin-right: 45px;
+}
+.checkbox3 label{
+    color: aliceblue;
+    font-size: 10px;
+   margin-right: 108px;
+   font-weight: 800;
+   
+}
+.button2 input{
+    margin-top:5px;
+    margin-left: 130px;
+    height: 35px;
+    width: 120px;
+    border-radius: 5px;
+    border: none;
+   
+}
+.heading{
+    color: aliceblue;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+.part2 .ppp #logo3{
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    border-radius: 40px;
+}
