@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Application Form</title>
+
+    <style>
+        *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background-size: cover;
+}
+
+h1{
+    font-size: 100px;
+    text-align: center;
+    margin-top: 25px;
+}
+.inputbox{
+    display: inline-flex;
+    padding:10px;
+    color: black;
+}
+.box{
+    display: inline-flex;
+    padding:10px;
+}
+.container{
+
+    display: flex;
+    background-size: cover;
+    display: inline-flex;
+    padding: 15px;
+    width: 1050px;
+    height: 550px;
+    margin-left: 250px;
+}
+
+.details{
+    color: black;
+    font-size: 15px;
+}
+
+input{
+    width: 150px;
+    height: 30px;
+}
+
+#js{
+    width: 15px;
+    height: 15px;
+}
+
+#python{
+    width: 15px;
+    height: 15px;
+}
+
+#java{
+    width: 15px;
+    height: 15px;
+}
+
+#jd{
+    width: 15px;
+    height: 15px;
+}
+
+#mld{
+    width: 15px;
+    height: 15px;
+}
+
+#sd{
+    width: 15px;
+    height: 15px;
+}
+
+.btn{
+    margin-top:5px;
+    margin-left: 130px;
+    height: 35px;
+    width: 100px;
+    padding: 0%;
+    background-color: #BFC9CA ;
+
+
+}
+
+
+    </style>
+</head>
+<body>
+    <h1>Application Form</h1>
+    <div class="container" align="">
+        
+
+        <form>
+            <div class="inputbox">
+                <span class="details">First Name: </span>
+                <input type="text"  required>
+            </div>
+            <div class="inputbox">
+                <span class="details">Last Name: </span>
+                <input type="text"  required>
+            </div><br><br>
+            <div class="box">
+                <span class="details">Date of birth: </span>
+                <input type="date"  required>
+            </div>
+
+            <div class="box">
+                <span class="details">Age: </span>
+                <input type="number" required>
+            </div><br><br>
+            <div class="inputbox">
+                <span class="details">Gender: </span>
+                <select>
+                    <option>Male</option>
+                    <option>Female</option>
+                </select></div>
+            <div class="inputbox">
+                <span class="details">Email: </span>
+                <input type="email"  required>
+            </div><br><br>
+            <div class="inputbox">
+                <span class="details">Positions Available: </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" id="jd" name="Junior Developer" value="JD">
+                <label for="jd">Junior Developer</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" id="mld" name="Mid-level Developer" value="MLD">
+                <label for="css">Mid-level Developer</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" id="sd" name="Senior Developer" value="SD">
+                <label for="javascript">Senior Developer</label>
+            </div><br><br>
+            <div class="inputbox">
+                <span class="details">Programming Languages:</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" id="java" name="JAVA" value="java">
+                <label for="java">Junior Developer</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" id="js" name="js" value="js">
+                <label for="js">JavaScript</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" id="python" name="python" value="python">
+                <label for="python">Python</label>
+            </div><br><br>
+            <div class="inputbox">
+                <span class="details">Password: </span>
+                <input type="password"  required>
+            </div>
+            <div class="inputbox">
+                <span class="details">Confirm Password: </span>
+                <input type="password"  required>
+            </div><br><br>
+            
+                <button class="btn">Submit</button>
+                <button class="btn">Reset</button>
+        </form>
+    </div>
+</body>
+</html>
